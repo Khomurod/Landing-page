@@ -61,6 +61,19 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target === modal) closeModal();
     });
 
+    // --- DEEP LINKING ---
+    const checkHash = () => {
+        if (window.location.hash === '#get-started') {
+            openModal();
+        }
+    };
+
+    // Check on load
+    checkHash();
+
+    // Check on hash change (if user is already on the page)
+    window.addEventListener('hashchange', checkHash);
+
     // --- FORM SUBMISSION ---
 
     leadForm.addEventListener('submit', async (e) => {

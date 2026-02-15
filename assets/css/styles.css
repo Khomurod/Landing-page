@@ -1671,3 +1671,156 @@ section {
 .zoom-overlay.active .zoom-img {
     transform: scale(1);
 }
+
+/* ============================
+   PAID PIVOT – NEW STYLES
+   ============================ */
+
+/* Ghost Button (Log In) */
+.btn-ghost {
+    background: transparent;
+    color: var(--color-gray-600);
+    border: none;
+    font-weight: 500;
+    padding: var(--space-xs) var(--space-md);
+    transition: color var(--transition-fast);
+}
+
+.btn-ghost:hover {
+    color: var(--color-primary-dark);
+    background: rgba(12, 225, 165, 0.08);
+}
+
+/* Pro Badge */
+.pro-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    background: linear-gradient(135deg, var(--color-accent-purple), #9333EA);
+    color: var(--color-white);
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: var(--radius-full);
+    vertical-align: middle;
+    margin-left: var(--space-xs);
+}
+
+/* Pro Pricing Card */
+.pricing-card.pro {
+    border-color: var(--color-accent-purple);
+    box-shadow: 0 0 30px rgba(124, 58, 237, 0.2), var(--shadow-lg);
+    transform: scale(1.04);
+}
+
+.pricing-card.pro:hover {
+    transform: scale(1.04) translateY(-5px);
+}
+
+.pricing-card.pro .pricing-badge {
+    background: linear-gradient(135deg, var(--color-accent-purple), #9333EA);
+}
+
+.pricing-card.pro .btn {
+    background: linear-gradient(135deg, var(--color-accent-purple), #6D28D9);
+    border-color: var(--color-accent-purple);
+}
+
+.pricing-card.pro .btn:hover {
+    background: linear-gradient(135deg, #6D28D9, #5B21B6);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Disabled / Gated Feature (strikethrough) */
+.pricing-feature-disabled {
+    color: var(--color-gray-400) !important;
+    text-decoration: line-through;
+}
+
+.pricing-feature-disabled svg {
+    color: var(--color-gray-300) !important;
+}
+
+/* Ideal-for Tag */
+.pricing-ideal {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--color-gray-500);
+    margin-top: var(--space-sm);
+    font-style: italic;
+}
+
+/* Trust / Integrations Bar */
+.trust-bar {
+    background: var(--color-white);
+    padding: var(--space-lg) 0;
+    border-bottom: 1px solid var(--color-gray-200);
+}
+
+.trust-bar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-xl);
+    flex-wrap: wrap;
+}
+
+.trust-bar-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-gray-500);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.trust-bar-items {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    flex-wrap: wrap;
+}
+
+.trust-bar-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-weight: 600;
+    color: var(--color-gray-600);
+    font-size: 0.95rem;
+}
+
+.trust-bar-item svg {
+    color: var(--color-primary);
+}
+
+/* Update pricing grid for 3 columns */
+@media (min-width: 1024px) {
+    .pricing-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 641px) {
+    .pricing-grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pricing-card.pro {
+        transform: scale(1);
+    }
+
+    .pricing-card.pro:hover {
+        transform: translateY(-5px);
+    }
+}
+
+/* Mobile nav login link */
+@media (max-width: 640px) {
+    .nav-cta .btn-ghost {
+        display: none;
+    }
+}

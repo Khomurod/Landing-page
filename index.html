@@ -22,7 +22,7 @@
         rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css?v=2">
+    <link rel="stylesheet" href="assets/css/styles.css?v=3">
 </head>
 
 <body>
@@ -1142,48 +1142,7 @@
         <a href="#pricing" class="btn btn-primary btn-block">Get Started - $50/mo</a>
     </div>
 
-    <!-- Exit Intent Modal -->
-    <div class="exit-modal" id="exitModal">
-        <div class="exit-modal-content">
-            <button class="exit-modal-close" id="closeExitModal">&times;</button>
-            <h3>Wait! Before you go...</h3>
-            <p>Want to see the quality of drivers in your area before you commit?</p>
-            <div class="mockup-container bg-primary" style="margin-bottom: 1.5rem;">
-                <img src="assets/images/feature-leads.png" alt="Driver List Preview"
-                    style="border-radius: 0.5rem; width: 100%;">
-            </div>
-            <a href="#pricing" class="btn btn-primary btn-lg btn-block">View Plan Options</a>
-            <p style="margin-top: 1rem; font-size: 0.875rem;">Join 500+ companies hiring today.</p>
-        </div>
-    </div>
 
-    <!-- Exit Intent Script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const modal = document.getElementById('exitModal');
-            const closeBtn = document.getElementById('closeExitModal');
-            let hasShown = false;
-
-            // Show on mouseleave (desktop)
-            document.addEventListener('mouseleave', (e) => {
-                if (e.clientY < 0 && !hasShown) {
-                    modal.classList.add('visible');
-                    hasShown = true;
-                }
-            });
-
-            closeBtn.addEventListener('click', () => {
-                modal.classList.remove('visible');
-            });
-
-            // Close when clicking outside
-            modal.addEventListener('click', (e) => {
-                if (e.target === modal) {
-                    modal.classList.remove('visible');
-                }
-            });
-        });
-    </script>
 </body>
 
 </html>

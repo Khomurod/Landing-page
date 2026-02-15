@@ -2342,27 +2342,29 @@ section {
 }
 
 /* Optimize for Laptops / Smaller Desktop Screens (Aggressive) */
+/* Optimize for Laptops / Smaller Desktop Screens (Aggressive) */
 @media (min-width: 992px) and (max-width: 1700px) {
     :root {
-        font-size: 14px;
-        /* Significant reduction */
+        font-size: 13px;
+        /* Drastic reduction for smaller feel */
         --space-xl: 2rem;
         --space-2xl: 3rem;
         --space-3xl: 4rem;
     }
 
     .container {
-        max-width: 960px;
-        /* Tighter container */
+        max-width: 940px;
+        /* Even tighter container */
         padding: 0 2rem;
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 
+    /* Reduced from 2.5rem */
     h2 {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
     h3 {
@@ -2371,12 +2373,21 @@ section {
 
     .hero {
         min-height: auto;
-        padding-top: 7rem;
+        padding-top: 6rem;
+        /* Reduced from 7rem */
         padding-bottom: 3rem;
     }
 
     .hero-container {
         gap: 2rem;
+        grid-template-columns: 1.1fr 0.9fr;
+    }
+
+    .hero-visual .mockup-window {
+        width: 100%;
+        max-width: 450px;
+        /* Limit image size */
+        margin: 0 auto;
     }
 
     .pricing-card {
@@ -2384,11 +2395,16 @@ section {
     }
 
     .testimonials-section {
-        padding: 4rem 0;
+        padding: 3rem 0;
     }
 
     .comparison-table th,
     .comparison-table td {
-        padding: 0.75rem;
+        padding: 0.6rem;
+    }
+
+    .btn-lg {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
     }
 }

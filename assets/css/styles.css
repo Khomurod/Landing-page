@@ -1215,7 +1215,7 @@ section {
     margin-bottom: var(--space-xl);
 }
 
-.footer-brand {}
+
 
 .footer-logo {
     width: 50px;
@@ -2342,7 +2342,7 @@ section {
 }
 
 /* Optimize for Laptops / Smaller Desktop Screens (Aggressive) */
-@media (min-width: 992px) and (max-width: 1500px) {
+@media (min-width: 992px) and (max-width: 1700px) {
     :root {
         font-size: 14px;
         /* Significant reduction */

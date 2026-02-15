@@ -2326,3 +2326,50 @@ section {
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
+
+/* --- FIXES & RESPONSIVENESS (Laptop) --- */
+
+/* Hide duplicate Log In on desktop */
+.nav-link.mobile-only {
+    display: none;
+}
+
+/* Ensure it shows in mobile menu if needed */
+@media (max-width: 900px) {
+    .nav-link.mobile-only {
+        display: block;
+    }
+}
+
+/* Optimize for Laptops / Smaller Desktop Screens */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    :root {
+        font-size: 15px;
+        /* Slightly smaller base text */
+        --space-xl: 2.5rem;
+        --space-2xl: 3rem;
+        --space-3xl: 5rem;
+    }
+
+    .container {
+        max-width: 1000px;
+        /* Tighter container */
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    .hero {
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+    }
+
+    .pricing-card {
+        padding: 2rem;
+    }
+}

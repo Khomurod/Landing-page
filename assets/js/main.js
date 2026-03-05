@@ -93,6 +93,21 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // --- DEEP LINKING (Direct Modal Open) ---
+    const checkHash = () => {
+        if (window.location.hash === '#get-started') {
+            modalOverlay.classList.add('active');
+            leadForm.style.display = 'block';
+            successMessage.style.display = 'none';
+        }
+    };
+
+    // Check on initial load
+    checkHash();
+
+    // Check on hash change (if user is already on the page)
+    window.addEventListener('hashchange', checkHash);
+
     // Handle Form Submit
     if (leadForm) {
         leadForm.addEventListener('submit', async (e) => {

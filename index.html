@@ -4,1090 +4,449 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO Meta Tags -->
-    <title>SafeHaul - Affordable Trucking Recruitment Software | $1 Per Driver Lead</title>
+    <title>SafeHaul - Fleet-Ready Applicant Tracking, Compliance & HR</title>
     <meta name="description"
-        content="Hire qualified CDL drivers for just $1 per lead. 50 leads, full ATS, and digital signatures starting at $50/month. Stop overpaying for driver recruitment.">
-    <meta name="keywords"
-        content="trucking recruitment, CDL driver leads, driver application tracking, recruiter performance, e-signature trucking, hiring software, affordable recruitment">
+        content="SafeHaul is a next-generation ATS and trucking HR/compliance suite. Digitize onboarding, automate audits, manage DQ files, and enjoy e-signatures—free forever.">
+
+    <!-- Open Graph / Meta Tags for Social Sharing -->
+    <meta property="og:title" content="SafeHaul - Fleet-Ready Applicant Tracking, Compliance & HR">
+    <meta property="og:description"
+        content="Next-generation ATS and trucking HR/compliance suite. Digitize onboarding, automate audits, and manage DQ files securely.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://safehaul.io">
+    <meta property="og:image" content="https://safehaul.io/assets/images/logo.svg">
+    <!-- Ideally an absolute path to a prominent og-image, but logo works as fallback -->
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
 
-    <!-- Google Fonts -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css?v=3">
+    <link rel="stylesheet" href="assets/css/styles.css?v=4">
 </head>
 
 <body>
 
     <!-- NAVIGATION -->
     <nav id="navbar" class="navbar">
-        <div class="container nav-container">
+        <div class="nav-container">
             <a href="#" class="logo-link">
-                <img src="assets/images/logo.svg" alt="SafeHaul Logo" class="logo">
+                <img src="assets/images/logo.svg" alt="SafeHaul Logo" class="logo" width="32" height="32">
                 <span class="logo-text">SafeHaul</span>
             </a>
 
             <div class="nav-links" id="navLinks">
                 <a href="#features" class="nav-link">Features</a>
-                <a href="#how-it-works" class="nav-link">How It Works</a>
                 <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#why-safehaul" class="nav-link">Why SafeHaul</a>
                 <a href="#faq" class="nav-link">FAQ</a>
-                <a href="https://app.safehaul.io" class="nav-link mobile-only" target="_blank" rel="noopener">Log In</a>
+                <a href="#footer" class="nav-link">Contact</a>
             </div>
 
             <div class="nav-cta">
-                <a href="https://app.safehaul.io" class="btn btn-ghost" target="_blank" rel="noopener">Log In</a>
-                <a href="javascript:void(0)" class="btn btn-outline-primary js-open-lead-modal">Schedule Demo</a>
-                <a href="javascript:void(0)" class="btn btn-primary js-open-lead-modal">Contact Sales</a>
+                <a href="https://app.safehaul.io" class="btn btn-ghost" target="_blank" rel="noopener">Login</a>
+                <button class="btn btn-primary js-open-lead-modal">Get Started</button>
             </div>
 
-            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" id="mobileMenuToggle">
+                <span></span><span></span><span></span>
             </button>
         </div>
     </nav>
 
     <!-- HERO SECTION -->
-    <section id="hero" class="hero">
-        <div class="hero-bg-animation"></div>
-        <div class="container hero-container">
-            <div class="hero-content">
-                <div class="verified-badge">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                    </svg>
-                    100% CDL Verified • FMCSA Checked
-                </div>
-
-                <h1 class="hero-title">
-                    Hire Qualified Drivers for<br>
-                    <span class="gradient-text">$1 per Lead.</span>
-                </h1>
-
-                <p class="hero-subtitle">
-                    The most affordable trucking recruitment platform. Get 50 qualified leads, a full ATS, and
-                    digital signatures starting at just $50/month.
-                </p>
-
-                <div class="hero-value-props">
-                    <div class="value-prop">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path
-                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
-                            </path>
-                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                        </svg>
-                        <span><strong>For Companies:</strong> 50 qualified driver leads for just $50/month</span>
-                    </div>
-                    <div class="value-prop">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
-                        <span><strong>For Drivers:</strong> Apply to top trucking companies in seconds</span>
-                    </div>
-                </div>
-
-                <div class="hero-cta">
-                    <a href="#pricing" class="btn btn-primary btn-lg">
-                        View Plans
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
-                    <a href="javascript:void(0)" class="btn btn-outline btn-lg js-open-lead-modal">Schedule a Demo</a>
-                </div>
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Fleet-Ready Applicant Tracking, Compliance & HR — All in One Platform.</h1>
+            <p class="hero-subtitle">
+                Track every driver, document and compliance milestone. Digitize onboarding. Automate audits and Previous
+                Employment Verifications. Enjoy e-signatures—free forever.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary btn-lg js-open-lead-modal">Get Started</button>
+                <a href="#features" class="btn btn-outline btn-lg">See How It Works</a>
             </div>
 
             <div class="hero-visual">
-                <div class="mockup-container bg-primary">
-                    <div class="mockup-window">
-                        <div class="mockup-header">
-                            <span class="mockup-dot red"></span>
-                            <span class="mockup-dot yellow"></span>
-                            <span class="mockup-dot green"></span>
-                        </div>
-                        <img src="assets/images/hero-dashboard.png" alt="SafeHaul Dashboard Interface"
-                            class="mockup-image">
-                    </div>
-                </div>
+                <div class="glass-overlay"></div>
+                <img src="assets/images/hero-dashboard.png" alt="SafeHaul Dashboard UI Screenshot"
+                    class="screenshot shadow-lg" />
             </div>
         </div>
-    </section>
+    </header>
 
-    <!-- STATS BAR -->
-    <section class="stats-bar">
-        <div class="container">
-            <div class="stats-ticker">
-                <div class="stat-badge">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+    <!-- FEATURES SHOWCASE -->
+    <section id="features" class="features-section">
+        <div class="section-title">
+            <h2>The Complete Compliance & HR Engine</h2>
+            <p>Everything you need from hire to retire, purpose-built for trucking logistics.</p>
+        </div>
+
+        <div class="features-grid">
+            <!-- ATS -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                        </path>
                     </svg>
-                    $1 Per Driver Lead
                 </div>
-                <div class="stat-badge">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                    </svg>
-                    90% Less Than Competitors
-                </div>
-                <div class="stat-badge">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <line x1="12" y1="1" x2="12" y2="23"></line>
-                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                    </svg>
-                    Real-Time Performance Tracking
-                </div>
-                <div class="stat-badge">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <h3>ATS Pipeline & Application Tracking</h3>
+                <p>Full Kanban and pipeline view with customizable stages (In Process, On Hold, Hired, Rejected).
+                    Centralizes every applicant and employment record—never lose track, never miss a milestone.</p>
+            </div>
+
+            <!-- DQ File -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
                         <polyline points="14 2 14 8 20 8"></polyline>
-                        <line x1="16" y1="13" x2="8" y2="13"></line>
-                        <line x1="16" y1="17" x2="8" y2="17"></line>
-                        <polyline points="10 9 9 9 8 9"></polyline>
+                        <polyline points="16 13 8 13"></polyline>
+                        <polyline points="16 17 8 17"></polyline>
+                        <polyline points="10 9 9 9"></polyline>
                     </svg>
-                    E-Signature Built-In
                 </div>
+                <h3>DQ File Management & Compliance</h3>
+                <p>Secure upload, audit/e-sign, and dashboard for all DQ docs—CDL, med card, MVR, road test, violation
+                    records, clearinghouse. Expiration monitoring, status visibility, and automated reminders to
+                    fleet/company.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- TRUST / INTEGRATIONS BAR -->
-    <section class="trust-bar">
-        <div class="container">
-            <div class="trust-bar-inner">
-                <span class="trust-bar-label">Integrates with:</span>
-                <div class="trust-bar-items">
-                    <div class="trust-bar-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path
-                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                            </path>
-                        </svg>
-                        RingCentral
-                    </div>
-                    <div class="trust-bar-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                        </svg>
-                        Twilio
-                    </div>
-                    <div class="trust-bar-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        </svg>
-                        FMCSA Data
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- INTRODUCTION -->
-    <section id="intro" class="intro">
-        <div class="container">
-            <div class="section-header centered">
-                <h2>What is SafeHaul?</h2>
-            </div>
-            <div class="intro-content">
-                <p class="lead">
-                    SafeHaul is revolutionizing trucking recruitment by connecting companies with qualified CDL drivers
-                    while providing industry-leading tools to track performance, manage applications, and streamline
-                    hiring—at industry-leading prices.
-                </p>
-                <p class="lead">
-                    Whether you're a trucking company struggling to find qualified drivers or a driver looking for your
-                    next opportunity, SafeHaul removes the friction from the hiring process. Our platform delivers daily
-                    driver leads, tracks every touchpoint, and gives you complete visibility into your recruiting
-                    pipeline.
-                </p>
-                <div class="callout-box">
+            <!-- E-Doc -->
+            <div class="feature-card">
+                <div class="feature-icon">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="12" y1="16" x2="12" y2="12"></line>
-                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                        <path d="M12 20h9"></path>
+                        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
                     </svg>
-                    <p><strong>Stop overpaying for driver leads. Get the same quality for 90% less.</strong></p>
                 </div>
+                <h3>E-Doc Services (DocuSign Alternative)</h3>
+                <p>Integrated, unlimited e-signature for company documents, release forms, policies, contracts—NO
+                    per-envelope fee. Tamper-proof digital sealing and downloadable certificates of completion. Audit
+                    trails on every doc; compliant and accepted across logistics.</p>
+            </div>
+
+            <!-- PEV -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                </div>
+                <h3>PEV (Previous Employment Verification)</h3>
+                <p>Direct, in-app PEV requests—send, track, and manage past employer verifications. Automated PDF
+                    generation with SafeHaul branding/certificate. Complete employer, driver, and admin portal flows.
+                </p>
+            </div>
+
+            <!-- Analytics -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="20" x2="18" y2="10"></line>
+                        <line x1="12" y1="20" x2="12" y2="4"></line>
+                        <line x1="6" y1="20" x2="6" y2="14"></line>
+                    </svg>
+                </div>
+                <h3>Driver/Fleet Analytics</h3>
+                <p>Real-time dashboard with stats aggregation: pipeline metrics, time to hire, conversion rates,
+                    active/inactive, company benchmarks. Exportable data, visual charts, performance logs per employee.
+                </p>
+            </div>
+
+            <!-- SMS -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                </div>
+                <h3>Bulk SMS Messaging</h3>
+                <p>Send unlimited personalized SMS to your own leads/pipeline via built-in SMS gateway(s), track
+                    campaign success, ensure compliance (carrier fees may apply). Role-based sender assignment,
+                    automatic fallback routing.</p>
+            </div>
+
+            <!-- Job Board -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                </div>
+                <h3>Job Board Management</h3>
+                <p>Internal job board UI; manage postings, status, applications. Quick-add, Excel/CSV import for mass
+                    recruiting.</p>
+            </div>
+
+            <!-- Offer Workflow -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3">
+                        </path>
+                    </svg>
+                </div>
+                <h3>Offer Workflow</h3>
+                <p>Fully-digital job offer pipeline with status tracking—offer initiated, sent, received—built into the
+                    application lifecycle.</p>
+            </div>
+
+            <!-- Multi-Tenant -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                </div>
+                <h3>Multi-Tenant Company Management</h3>
+                <p>Manage multiple fleets/companies in one admin instance—role-based access, sub-company settings,
+                    team/invite management, onboarding tour for new users.</p>
+            </div>
+
+            <!-- Security -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                </div>
+                <h3>Advanced Security & Integrity</h3>
+                <p>Role-based permissions, cryptographically verifiable audit logs, App Check/recaptcha, data export
+                    (GDPR/Clean compliance), session management.</p>
             </div>
         </div>
     </section>
 
-    <!-- FEATURES FOR COMPANIES -->
-    <section id="features" class="features">
-        <div class="container">
-            <div class="section-header centered">
-                <span class="section-tag">For Companies</span>
-                <h2>Everything You Need to Hire Drivers Faster</h2>
-                <p class="section-subtitle">Complete recruiting toolkit. Unbeatable value.</p>
+    <!-- WHY SAFEHAUL (COMPARE) -->
+    <section id="why-safehaul" class="compare-section">
+        <div class="section-title">
+            <h2>Why SafeHaul vs. The Rest?</h2>
+            <p>Generic HRIS systems or expensive e-signature tools don't understand trucking compliance.</p>
+        </div>
+        <div class="compare-table-wrapper">
+            <table class="compare-table">
+                <thead>
+                    <tr>
+                        <th>Capability</th>
+                        <th>Generic ATS / Spreadsheets</th>
+                        <th>Standard E-Sign Tool</th>
+                        <th class="highlight-col">SafeHaul</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Industry Compliance Built-In</td>
+                        <td>❌ Minimal</td>
+                        <td>❌ None</td>
+                        <td class="highlight-col">✅ Full FMCSA DQ Automation</td>
+                    </tr>
+                    <tr>
+                        <td>E-Signature Cost</td>
+                        <td>Often Extra ($$$)</td>
+                        <td>Per-Envelope Fee ($$$)</td>
+                        <td class="highlight-col">✅ Unlimited (Built-in)</td>
+                    </tr>
+                    <tr>
+                        <td>Direct PEV Workflows</td>
+                        <td>❌ Manual Paperwork</td>
+                        <td>❌ Blank Forms</td>
+                        <td class="highlight-col">✅ Digital, Tracked & Certified</td>
+                    </tr>
+                    <tr>
+                        <td>Cost Transparency</td>
+                        <td>Hidden Fees / Modules</td>
+                        <td>Usage Tiers</td>
+                        <td class="highlight-col">✅ Clear, Flat Monthly Rate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="compare-event-demo">
+            <div class="event-badge">
+                <span class="dot green"></span> DQ Audit Passed — Driver: John D.
             </div>
-
-            <div class="features-grid">
-                <!-- Feature 1: Daily Leads -->
-                <div class="feature-card" data-animate>
-                    <div class="feature-icon gradient-primary">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-                        </svg>
-                    </div>
-                    <h3>Affordable Daily Driver Leads</h3>
-                    <p>Receive 50 pre-qualified driver leads every morning at just $1 per lead. Fresh contacts delivered
-                        directly to your dashboard.</p>
-                    <div class="mockup-container bg-emerald">
-                        <div class="mockup-window">
-                            <div class="mockup-header">
-                                <span class="mockup-dot red"></span>
-                                <span class="mockup-dot yellow"></span>
-                                <span class="mockup-dot green"></span>
-                            </div>
-                            <img src="assets/images/feature-leads.png" alt="Driver Leads Dashboard"
-                                class="mockup-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Feature 2: Application Tracking -->
-                <div class="feature-card" data-animate>
-                    <div class="feature-icon gradient-secondary">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M20 7h-9"></path>
-                            <path d="M14 17H5"></path>
-                            <circle cx="17" cy="17" r="3"></circle>
-                            <circle cx="7" cy="7" r="3"></circle>
-                        </svg>
-                    </div>
-                    <h3>Complete Application Tracking</h3>
-                    <p>Manage every driver application from first contact to hire in one centralized dashboard. Never
-                        lose track of a candidate again.</p>
-                    <div class="mockup-container bg-blue">
-                        <div class="mockup-window">
-                            <div class="mockup-header">
-                                <span class="mockup-dot red"></span>
-                                <span class="mockup-dot yellow"></span>
-                                <span class="mockup-dot green"></span>
-                            </div>
-                            <img src="assets/images/feature-tracking.png" alt="Application Tracking Pipeline"
-                                class="mockup-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Feature 3: Performance Analytics -->
-                <div class="feature-card" data-animate>
-                    <div class="feature-icon gradient-accent">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <line x1="18" y1="20" x2="18" y2="10"></line>
-                            <line x1="12" y1="20" x2="12" y2="4"></line>
-                            <line x1="6" y1="20" x2="6" y2="14"></line>
-                        </svg>
-                    </div>
-                    <h3>Recruiter Performance Analytics</h3>
-                    <p>Track calls, connections, callbacks, and conversions in real-time. Know exactly who's performing
-                        and where to improve.</p>
-                    <div class="mockup-container bg-purple">
-                        <div class="mockup-window">
-                            <div class="mockup-header">
-                                <span class="mockup-dot red"></span>
-                                <span class="mockup-dot yellow"></span>
-                                <span class="mockup-dot green"></span>
-                            </div>
-                            <img src="assets/images/feature-analytics.png" alt="Performance Analytics Dashboard"
-                                class="mockup-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Feature 4: E-Documents -->
-                <div class="feature-card" data-animate>
-                    <div class="feature-icon gradient-primary">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <path d="M12 18v-6"></path>
-                            <path d="m9 15 3 3 3-3"></path>
-                        </svg>
-                    </div>
-                    <h3>E-Document & Digital Signatures</h3>
-                    <p>Send offer letters, contracts, and onboarding docs. Get legally binding signatures in seconds—no
-                        third-party tools needed.</p>
-                    <div class="mockup-container bg-primary">
-                        <div class="mockup-window">
-                            <div class="mockup-header">
-                                <span class="mockup-dot red"></span>
-                                <span class="mockup-dot yellow"></span>
-                                <span class="mockup-dot green"></span>
-                            </div>
-                            <img src="assets/images/feature-documents.png" alt="Digital Signature Interface"
-                                class="mockup-image">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Feature 5: Multi-Channel Communication -->
-                <div class="feature-card" data-animate>
-                    <div class="feature-icon gradient-secondary">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path
-                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3>Multi-Channel Communication <span class="pro-badge">Pro</span></h3>
-                    <p>Integrated RingCentral SMS, Facebook Lead Ads, and call tracking—all in one platform. Reach
-                        drivers where they are.</p>
-
-                </div>
-
-                <!-- Feature 6: Lead Pool Management -->
-                <div class="feature-card" data-animate>
-                    <div class="feature-icon gradient-accent">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="9" cy="7" r="4"></circle>
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                        </svg>
-                    </div>
-                    <h3>Lead Pool Management</h3>
-                    <p>Access SafeHaul's network of drivers or upload your own private leads. Full control over your
-                        recruiting pipeline.</p>
-
-                </div>
+            <div class="event-badge">
+                <span class="dot blue"></span> PEV Verified — Employer: Swift Trans.
+            </div>
+            <div class="event-badge">
+                <span class="dot purple"></span> Completed Offer — Signed via E-Doc
             </div>
         </div>
     </section>
 
-    <!-- FEATURES FOR DRIVERS -->
-    <section class="features-drivers">
-        <div class="container">
-            <div class="section-header centered">
-                <span class="section-tag secondary">For Drivers</span>
-                <h2>Access a Network of High-Intent Drivers</h2>
-                <div class="driver-stats">
-                    <div class="driver-stat-item">
-                        <span class="driver-stat-number">10,000+</span>
-                        <span class="driver-stat-label">Active CDL Holders</span>
-                    </div>
-                    <div class="driver-stat-item">
-                        <span class="driver-stat-number">Daily</span>
-                        <span class="driver-stat-label">New Drivers Added</span>
-                    </div>
-                    <div class="driver-stat-item">
-                        <span class="driver-stat-number">5+ Years</span>
-                        <span class="driver-stat-label">Average Experience</span>
-                    </div>
+    <!-- PLANS & PRICING -->
+    <section id="pricing" class="pricing-section bg-light">
+        <div class="section-title">
+            <h2>Transparent Plans & Pricing</h2>
+            <p>Scalable software for growing fleets. No hidden per-user or per-document fees.</p>
+        </div>
+        <div class="pricing-cards">
+            <!-- Plan 1 -->
+            <div class="price-card">
+                <h3>ATS & Compliance</h3>
+                <div class="price">
+                    <span class="currency">$</span><span class="amount">199</span><span class="period">/mo</span>
                 </div>
+                <p class="plan-desc">Complete toolkit for your recruiting and compliance needs.</p>
+                <ul class="plan-features">
+                    <li>✅ Unlimited Records & Users</li>
+                    <li>✅ Unlimited E-Docs & Signatures</li>
+                    <li>✅ Full ATS Pipeline & Offer Flows</li>
+                    <li>✅ DQ File Management & PEV</li>
+                    <li>✅ Real-Time Analytics & Reporting</li>
+                    <li>✅ Multi-Tenant / Fleet Support</li>
+                </ul>
+                <button class="btn btn-primary btn-block js-open-lead-modal">Get Started</button>
             </div>
 
-            <div class="driver-features">
-                <div class="driver-feature" data-animate>
-                    <div class="driver-feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                    </div>
-                    <h3>One-Click Applications</h3>
-                    <p>Apply to multiple trucking companies with a single profile. No more filling out the same form
-                        over and over.</p>
+            <!-- Plan 2 -->
+            <div class="price-card premium">
+                <div class="badge">Most Popular</div>
+                <h3>ATS + Bulk SMS</h3>
+                <div class="price">
+                    <span class="currency">$</span><span class="amount">299</span><span class="period">/mo</span>
                 </div>
-
-                <div class="driver-feature" data-animate>
-                    <div class="driver-feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-                        </svg>
-                    </div>
-                    <h3>Get Contacted Faster</h3>
-                    <p>Your application goes directly to hiring managers—no middlemen. Get responses in hours, not days.
-                    </p>
-                </div>
-
-                <div class="driver-feature" data-animate>
-                    <div class="driver-feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                            <circle cx="12" cy="12" r="3"></circle>
-                        </svg>
-                    </div>
-                    <h3>Track Your Progress</h3>
-                    <p>See which companies viewed your application and receive instant updates on your status.</p>
-                </div>
-            </div>
-
-            <div class="driver-cta">
-                <a href="https://app.safehaul.io" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
-                    Start Applying Today
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg>
-                </a>
+                <p class="plan-desc">Advanced communication toolkit for larger hiring operations.</p>
+                <ul class="plan-features">
+                    <li>✅ <strong>All ATS & Compliance Features</strong></li>
+                    <li>✅ Unlimited SMS Campaigns</li>
+                    <li>✅ Mass Messaging to Pipeline</li>
+                    <li>✅ Role-based SMS Senders</li>
+                    <li>✅ Automated Fallback Routing</li>
+                </ul>
+                <button class="btn btn-primary btn-block js-open-lead-modal">Get Started</button>
             </div>
         </div>
+        <p class="pricing-footnote">* SMS campaign delivery subject to carrier fees; ask sales for details. Pricing
+            includes free white-label PEV and all SafeHaul compliance modules.</p>
     </section>
 
     <!-- TESTIMONIALS -->
     <section class="testimonials-section">
-        <div class="container">
-            <div class="section-header centered">
-                <h2>Trusted by Owner-Operators</h2>
-                <p class="section-subtitle">Real results from real trucking companies.</p>
-            </div>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <p class="testimonial-quote">"We spent $50 and hired 2 drivers in the first week. Best money we've
-                        spent in years. Finally a platform that doesn't gouge us."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">MS</div>
-                        <div class="author-info">
-                            <h4>Mike S.</h4>
-                            <p>Owner, Star Line Trucking</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <p class="testimonial-quote">"The SMS texting feature in the Pro plan is a game changer. I text
-                        drivers and get replies instantly. No more phone tag."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">JL</div>
-                        <div class="author-info">
-                            <h4>James L.</h4>
-                            <p>Recruiter, FastLane Logistics</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <p class="testimonial-quote">"I was skeptical about the $1/lead promise, but the quality is actually
-                        better than the expensive boards. Highly recommend."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">TR</div>
-                        <div class="author-info">
-                            <h4>Tom R.</h4>
-                            <p>Fleet Manager, Red Rock Transport</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="section-title">
+            <h2>Trusted by Top Trucking Fleets</h2>
         </div>
-    </section>
-
-    <!-- HOW IT WORKS -->
-    <section id="how-it-works" class="how-it-works">
-        <div class="container">
-            <div class="section-header centered">
-                <h2>How It Works</h2>
-                <p class="section-subtitle">Get started in minutes. Cancel anytime.</p>
+        <div class="company-logos-row">
+            <div class="company-logo-item">
+                <img src="assets/images/company_logos/STL Truckers.png" alt="STL Truckers">
             </div>
-
-            <div class="how-grid">
-                <!-- For Companies -->
-                <div class="how-column">
-                    <h3 class="how-title">For Companies</h3>
-
-                    <div class="how-step" data-animate>
-                        <div class="step-number">1</div>
-                        <div class="step-content">
-                            <h4>Sign Up in 60 Seconds</h4>
-                            <p>Pick a plan that fits your fleet. Just your email and company info.</p>
-                        </div>
-                    </div>
-
-                    <div class="how-step" data-animate>
-                        <div class="step-number">2</div>
-                        <div class="step-content">
-                            <h4>Receive Your First 50 Leads</h4>
-                            <p>Fresh driver contacts delivered to your dashboard immediately.</p>
-                        </div>
-                    </div>
-
-                    <div class="how-step" data-animate>
-                        <div class="step-number">3</div>
-                        <div class="step-content">
-                            <h4>Start Calling, Tracking & Hiring</h4>
-                            <p>Use built-in tools to contact drivers, track progress, and make hires.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- For Drivers -->
-                <div class="how-column">
-                    <h3 class="how-title">For Drivers</h3>
-
-                    <div class="how-step" data-animate>
-                        <div class="step-number">1</div>
-                        <div class="step-content">
-                            <h4>Create Your Driver Profile</h4>
-                            <p>Add your CDL info, experience, and preferences in minutes.</p>
-                        </div>
-                    </div>
-
-                    <div class="how-step" data-animate>
-                        <div class="step-number">2</div>
-                        <div class="step-content">
-                            <h4>Browse Available Positions</h4>
-                            <p>See opportunities from top trucking companies nationwide.</p>
-                        </div>
-                    </div>
-
-                    <div class="how-step" data-animate>
-                        <div class="step-number">3</div>
-                        <div class="step-content">
-                            <h4>Apply & Get Hired Faster</h4>
-                            <p>One-click applications mean you hear back faster and start driving sooner.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="company-logo-item">
+                <img src="assets/images/company_logos/True Nation.png" alt="True Nation Inc.">
             </div>
-        </div>
-    </section>
-
-    <!-- PRICING -->
-    <section id="pricing" class="pricing">
-        <div class="container">
-            <div class="section-header centered">
-                <h2 class="pricing-headline">Simple, Transparent Pricing</h2>
-                <p class="section-subtitle">Just $1 per lead. No hidden fees. No long-term contracts.</p>
+            <div class="company-logo-item">
+                <img src="assets/images/company_logos/I&S Truckers.jfif" alt="I&S Transportation">
             </div>
-
-            <div class="pricing-grid">
-                <!-- Basic Plan -->
-                <div class="pricing-card" data-animate>
-                    <h3 class="pricing-title">Basic</h3>
-                    <div class="pricing-price">
-                        <span class="price-amount">$50</span>
-                        <span class="price-period">/month</span>
-                    </div>
-                    <p style="font-size: 0.85rem; opacity: 0.8; margin-bottom: 1rem; margin-top: -0.5rem;">No contract.
-                        Cancel in 1 click.</p>
-                    <p class="pricing-description">Everything you need to start hiring drivers.</p>
-
-                    <ul class="pricing-features">
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            50 Leads/month ($1/lead)
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Application Tracking (ATS)
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            E-Signatures &amp; Documents
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Email Support
-                        </li>
-                        <li class="pricing-feature-disabled">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <line x1="18" y1="6" x2="6" y2="18"></line>
-                                <line x1="6" y1="6" x2="18" y2="18"></line>
-                            </svg>
-                            SMS / 2-Way Texting
-                        </li>
-                    </ul>
-
-                    <a href="javascript:void(0)" class="btn btn-primary btn-block js-open-lead-modal">Start Basic
-                        Plan</a>
-                    <span class="pricing-ideal">Ideal for Owner-Operators &amp; Small Fleets (1–5 trucks)</span>
-                </div>
-
-                <!-- Pro Plan -->
-                <div class="pricing-card pro featured" data-animate>
-                    <div class="pricing-badge">Most Popular</div>
-                    <h3 class="pricing-title">Pro</h3>
-                    <div class="pricing-price">
-                        <span class="price-amount">$100</span>
-                        <span class="price-period">/month</span>
-                    </div>
-                    <p style="font-size: 0.85rem; opacity: 0.8; margin-bottom: 1rem; margin-top: -0.5rem;">7-Day
-                        Money-Back Guarantee</p>
-                    <p class="pricing-description">Accelerate hiring with SMS and priority support.</p>
-
-                    <ul class="pricing-features">
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            100 Leads/month ($1/lead)
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Application Tracking (ATS)
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            E-Signatures &amp; Documents
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            <strong>SMS Integration &amp; 2-Way Texting</strong>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Priority Support
-                        </li>
-                    </ul>
-
-                    <a href="javascript:void(0)" class="btn btn-primary btn-block js-open-lead-modal">Start Pro Plan</a>
-                    <span class="pricing-ideal">Ideal for Growing Fleets (5–20 trucks)</span>
-                </div>
-
-                <!-- Enterprise Plan -->
-                <div class="pricing-card" data-animate>
-                    <h3 class="pricing-title">Enterprise</h3>
-                    <div class="pricing-price">
-                        <span class="price-custom">Custom Pricing</span>
-                    </div>
-                    <p class="pricing-description">For high-volume recruiting teams with advanced needs.</p>
-
-                    <ul class="pricing-features">
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Everything in Pro, plus:
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            200+ Leads/month
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Custom Integrations
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Dedicated Account Manager
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Advanced Analytics
-                        </li>
-                    </ul>
-
-                    <a href="javascript:void(0)" class="btn btn-outline btn-block js-open-lead-modal">Contact Sales</a>
-                    <span class="pricing-ideal">Ideal for Large Fleets (20+ trucks)</span>
-                </div>
-            </div>
-
-            <!-- Comparison Table -->
-            <div class="comparison-table-container">
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th>Feature</th>
-                            <th class="center">Basic ($50)</th>
-                            <th class="center">Pro ($100)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Daily Lead Volume</td>
-                            <td class="center">50 Leads</td>
-                            <td class="center">100 Leads</td>
-                        </tr>
-                        <tr>
-                            <td>Lead Freshness</td>
-                            <td class="center">Standard (24h)</td>
-                            <td class="center"><strong>Instant (Real-time)</strong></td>
-                        </tr>
-                        <tr>
-                            <td>ATS & Document Management</td>
-                            <td class="center"><span class="check">✔</span></td>
-                            <td class="center"><span class="check">✔</span></td>
-                        </tr>
-                        <tr>
-                            <td>2-Way SMS Texting</td>
-                            <td class="center"><span class="cross">✘</span></td>
-                            <td class="center"><span class="check">✔</span></td>
-                        </tr>
-                        <tr>
-                            <td>Automated Follow-ups</td>
-                            <td class="center"><span class="cross">✘</span></td>
-                            <td class="center"><span class="check">✔</span></td>
-                        </tr>
-                        <tr>
-                            <td>Priority Support</td>
-                            <td class="center"><span class="cross">✘</span></td>
-                            <td class="center"><span class="check">✔</span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <p class="pricing-trust">Cancel anytime. No long-term contracts.</p>
-        </div>
-    </section>
-
-    <!-- WHY SAFEHAUL -->
-    <section class="why-safehaul">
-        <div class="container">
-            <div class="section-header centered">
-                <h2>Why SafeHaul?</h2>
-                <p class="section-subtitle">Built different. Built better. Built for trucking.</p>
-            </div>
-
-            <div class="why-grid">
-                <div class="why-item" data-animate>
-                    <div class="why-visual">
-                        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <rect x="1" y="3" width="15" height="13"></rect>
-                            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
-                            <circle cx="5.5" cy="18.5" r="2.5"></circle>
-                            <circle cx="18.5" cy="18.5" r="2.5"></circle>
-                        </svg>
-                    </div>
-                    <div class="why-content">
-                        <h3>Built for Trucking</h3>
-                        <p>Not a generic ATS. Purpose-built for CDL recruiting with features that matter to your
-                            industry.</p>
-                    </div>
-                </div>
-
-                <div class="why-item" data-animate>
-                    <div class="why-visual">
-                        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                    </div>
-                    <div class="why-content">
-                        <h3>Transparent Pricing</h3>
-                        <p>No hidden fees. No surprise charges. Everything upfront. What you see is what you get (or
-                            don't pay).</p>
-                    </div>
-                </div>
-
-                <div class="why-item" data-animate>
-                    <div class="why-visual">
-                        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="9" cy="7" r="4"></circle>
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                        </svg>
-                    </div>
-                    <div class="why-content">
-                        <h3>Community-Driven</h3>
-                        <p>SafeHaul Network connects companies and drivers nationwide. The more who join, the stronger
-                            we all become.</p>
-                    </div>
-                </div>
-
-                <div class="why-item" data-animate>
-                    <div class="why-visual">
-                        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="1.5">
-                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-                            <polyline points="2 17 12 22 22 17"></polyline>
-                            <polyline points="2 12 12 17 22 12"></polyline>
-                        </svg>
-                    </div>
-                    <div class="why-content">
-                        <h3>Future-Ready</h3>
-                        <p>SafeHaul Technologies is building the entire trucking ecosystem. This is just the beginning.
-                        </p>
-                    </div>
-                </div>
+            <div class="company-logo-item tophire-logo">
+                <span class="tophire-text">TopHire</span><br>
+                <span class="tophire-sub">Recruiting Agency</span>
             </div>
         </div>
     </section>
 
     <!-- FAQ -->
-    <section id="faq" class="faq">
-        <div class="container">
-            <div class="section-header centered">
-                <h2>Frequently Asked Questions</h2>
-            </div>
-
-            <div class="faq-container">
-                <div class="faq-item" data-animate>
-                    <button class="faq-question">
-                        <span>Is SafeHaul free?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" class="faq-icon">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>We offer the most competitive pricing in the industry. For just $50/month, you get
-                            50 leads and full access to our software—application tracking, e-signatures, and
-                            recruiter analytics included. That’s $1 per lead, compared to the industry average of
-                            $50+ per driver lead.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-animate>
-                    <button class="faq-question">
-                        <span>Why upgrade to Pro?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" class="faq-icon">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>The Pro plan includes SMS integration, allowing you to text drivers directly. Text messages
-                            have a 98% open rate compared to email, helping you hire drivers 2x faster. You also get
-                            100 leads per month and priority support.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-animate>
-                    <button class="faq-question">
-                        <span>What types of drivers are in the lead pool?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" class="faq-icon">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Our lead pool contains CDL-A and CDL-B drivers with various experience levels, from
-                            entry-level to 10+ years. We have drivers looking for OTR, regional, local, and specialized
-                            positions across all 50 states.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-animate>
-                    <button class="faq-question">
-                        <span>Can I upload my own leads?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" class="faq-icon">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Absolutely! You can upload your own private leads and manage them alongside SafeHaul Network
-                            leads. Your data stays private and is never shared with other companies.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-animate>
-                    <button class="faq-question">
-                        <span>Do I need RingCentral to use SafeHaul?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" class="faq-icon">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>No, RingCentral integration is optional. You can use SafeHaul's core features without any
-                            third-party integrations. RingCentral SMS and Facebook Lead Ads are available if you want
-                            them, but not required.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-animate>
-                    <button class="faq-question">
-                        <span>How does the daily lead distribution work?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" class="faq-icon">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Every morning at 7 AM CT, SafeHaul automatically distributes fresh driver leads to your
-                            dashboard. Leads are allocated based on your plan (50 for Basic, 100 for Pro, 200+ for
-                            Enterprise) and rotated fairly across all companies.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-animate>
-                    <button class="faq-question">
-                        <span>What if I need more than 50 leads per day?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" class="faq-icon">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Upgrade to Pro for 100 leads/month with SMS texting, or contact our sales team for
-                            an Enterprise plan with 200+ leads, custom integrations, and a dedicated account manager.
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <section id="faq" class="faq-section">
+        <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
         </div>
-    </section>
-
-    <!-- FINAL CTA -->
-    <section class="final-cta">
-        <div class="container">
-            <div class="final-cta-content" data-animate>
-                <h2>Ready to Transform Your Recruiting?</h2>
-                <p class="final-cta-subtitle">Join trucking companies who are hiring faster and smarter with
-                    SafeHaul</p>
-
-                <div class="final-cta-stats">
-                    <div class="stat-item">
-                        <div class="stat-number">$<span data-count="1">0</span></div>
-                        <div class="stat-label">Per Driver Lead</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">$<span data-count="50">0</span></div>
-                        <div class="stat-label">Starting Per Month</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="90">0</div>
-                        <div class="stat-label">% Savings vs Competition</div>
-                    </div>
+        <div class="faq-accordion">
+            <div class="faq-row">
+                <div class="faq-question">Is SafeHaul compliant with FMCSA/DOT DQ requirements? <span
+                        class="indicator">+</span></div>
+                <div class="faq-answer">Yes, our DQ module is built specifically to track and maintain compliance with
+                    FMCSA and DOT regulations, complete with audit logs and auto-reminders.</div>
+            </div>
+            <div class="faq-row">
+                <div class="faq-question">Can I export all my data at any time? <span class="indicator">+</span></div>
+                <div class="faq-answer">Absolutely. You own your data. Our platform allows complete data export to
+                    remain GDPR and Clean compliance ready.</div>
+            </div>
+            <div class="faq-row">
+                <div class="faq-question">Are e-signatures legally binding? <span class="indicator">+</span></div>
+                <div class="faq-answer">Yes. SafeHaul’s e-doc module produces tamper-proof, digitally sealed documents
+                    with completion certificates that meet E-SIGN Act requirements.</div>
+            </div>
+            <div class="faq-row">
+                <div class="faq-question">How does bulk SMS compliance work? Are there additional charges? <span
+                        class="indicator">+</span></div>
+                <div class="faq-answer">Our SMS gateway handles opt-out management and sender registration. While
+                    unlimited sends are included in the $299 plan, standard carrier pass-through fees (fraction of a
+                    cent per message) may apply.</div>
+            </div>
+            <div class="faq-row">
+                <div class="faq-question">What support is available for onboarding? <span class="indicator">+</span>
                 </div>
-
-                <div class="final-cta-buttons">
-                    <a href="javascript:void(0)" class="btn btn-primary btn-lg js-open-lead-modal">
-                        Schedule a Demo
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
-                    <a href="javascript:void(0)" class="btn btn-outline btn-lg js-open-lead-modal">
-                        Talk to Sales
-                    </a>
-                </div>
+                <div class="faq-answer">We offer guided onboarding tours directly in the app, plus comprehensive email
+                    and priority support to ensure your team is set up for success immediately.</div>
+            </div>
+            <div class="faq-row">
+                <div class="faq-question">Is there a contract or setup fee? <span class="indicator">+</span></div>
+                <div class="faq-answer">No. We believe in transparent, flat monthly pricing with no hidden setup fees
+                    and no long-term lock-in contracts.</div>
             </div>
         </div>
     </section>
 
     <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <img src="assets/images/logo.svg" alt="SafeHaul Logo" class="footer-logo">
-                    <p class="footer-tagline">The most affordable recruiting platform built for trucking.</p>
-                    <p class="footer-copyright">© 2026 SafeHaul Technologies. All rights reserved.</p>
+    <footer id="footer" class="footer-section">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 1rem;">
+                    <img src="assets/images/logo.svg" alt="SafeHaul Logo" class="footer-logo" width="32" height="32">
+                    <span class="logo-text" style="margin-bottom: 0;">SafeHaul</span>
                 </div>
-
-                <div class="footer-links">
-                    <h4>Product</h4>
-                    <ul>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
-                        <li><a href="#how-it-works">How It Works</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-links">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#intro">About</a></li>
-                        <li><a href="mailto:info@safehaul.io">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-links">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="mailto:info@safehaul.io">Support</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-contact">
-                    <h4>Get In Touch</h4>
-                    <p><strong>Email:</strong> <a href="mailto:info@safehaul.io">info@safehaul.io</a></p>
-                    <p><strong>Sales:</strong> <a href="javascript:void(0)" class="js-open-lead-modal">Contact Sales</a>
-                    </p>
-                </div>
+                <p>Next-generation Applicant Tracking, Compliance & HR software for modern trucking fleets.</p>
             </div>
+            <div class="footer-links">
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="https://app.safehaul.io" target="_blank">Partner Login</a>
+            </div>
+            <div class="footer-contact">
+                <a href="mailto:info@safehaul.io">Contact Support</a>
+                <a href="javascript:void(0)" class="js-open-lead-modal">Contact Sales</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SafeHaul. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- LEAD GENERATION MODAL -->
+    <!-- SHORT-FORM MODAL -->
     <div id="leadModal" class="modal-overlay">
         <div class="modal-container">
             <button class="modal-close" id="closeModal" aria-label="Close modal">&times;</button>
             <div class="modal-header">
                 <h3>Get Started with SafeHaul</h3>
-                <p>Fill out the form below and we'll be in touch shortly.</p>
+                <p>Fill out the form below and our sales team will be in touch.</p>
             </div>
             <form id="leadForm" class="modal-form">
                 <div class="form-group">
                     <label for="fullName">Full Name</label>
-                    <input type="text" id="fullName" name="fullName" placeholder="John Doe" required>
+                    <input type="text" id="fullName" name="fullName" placeholder="Jane Doe" required>
                 </div>
                 <div class="form-group">
                     <label for="workEmail">Work Email</label>
-                    <input type="email" id="workEmail" name="workEmail" placeholder="john@company.com" required>
+                    <input type="email" id="workEmail" name="workEmail" placeholder="jane@company.com" required>
                 </div>
                 <div class="form-row">
                     <div class="form-group">
                         <label for="companyName">Company Name</label>
-                        <input type="text" id="companyName" name="companyName" placeholder="SafeHaul Logistics"
-                            required>
+                        <input type="text" id="companyName" name="companyName" placeholder="Logistics Inc." required>
                     </div>
                     <div class="form-group">
                         <label for="companySize">Company Size</label>
@@ -1108,10 +467,11 @@
                     <label for="primaryGoal">Primary Goal</label>
                     <select id="primaryGoal" name="primaryGoal" required>
                         <option value="" disabled selected>What are you looking for?</option>
-                        <option value="Get Leads">Get 50 Daily Leads</option>
-                        <option value="Manage Apps">Manage Applications</option>
-                        <option value="E-Docs">E-Signature & Documents</option>
-                        <option value="Other">Other / Talk to Sales</option>
+                        <option value="ATS">ATS & Application Management</option>
+                        <option value="Compliance">DQ Compliance & Auditing</option>
+                        <option value="E-Docs">E-Signature / DocuSign Alternative</option>
+                        <option value="PEV">PEV Tracking</option>
+                        <option value="Other">Other</option>
                     </select>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block btn-lg">Request Access</button>
@@ -1119,30 +479,16 @@
             </form>
 
             <div id="successMessage" class="modal-success" style="display: none;">
-                <div class="success-icon">
-                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                    </svg>
-                </div>
+                <div class="success-icon">✅</div>
                 <h3>Request Sent!</h3>
-                <p>Thank you for your interest. Our team will contact you via email or phone within 24 hours.</p>
-                <button type="button" class="btn btn-outline" id="successClose">Close Window</button>
+                <p>Thank you. Our sales team will reach out to schedule a platform walkthrough.</p>
+                <button type="button" class="btn btn-outline btn-block" id="successClose">Close Window</button>
             </div>
         </div>
     </div>
 
-    <!-- JavaScript -->
+    <!-- JS -->
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/contact-form.js"></script>
-    <script src="assets/js/zoom.js"></script>
-
-    <!-- Sticky Mobile CTA -->
-    <div class="sticky-cta">
-        <a href="#pricing" class="btn btn-primary btn-block">Get Started - $50/mo</a>
-    </div>
-
-
 </body>
 
 </html>
